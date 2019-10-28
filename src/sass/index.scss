@@ -1,0 +1,33 @@
+@import './includes/variables';
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	background: $primary-color;
+	border: 2rem solid $secondary-color;
+	display: flex;
+	font-family: sans-serif;
+	height: 100vh;
+	margin: 0;
+
+	.main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: auto;
+
+		.parcel-box {
+			display: block;
+			margin: auto auto 0;
+		}
+
+		.title {
+			color: #eee;
+			margin: 0 auto auto;
+		}
+	}
+}
